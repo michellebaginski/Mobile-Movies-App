@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        android:text="A Quiet Place"
+        android:textColor="#000"
+        android:layout_alignTop="@id/movie_poster"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="45dp"
+        android:src="@drawable/a_quiet_place"
+        android:layout_alignParentBottom="@id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="27dp" />
+
+
+</RelativeLayout>

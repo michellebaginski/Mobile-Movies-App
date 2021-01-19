@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/posters"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/a_quiet_place"></ImageView>
+
+        <TextView
+            android:id="@+id/movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/posters"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-80dp"
+            android:layout_marginEnd="-236dp"
+            android:layout_marginRight="-557dp"
+            android:layout_toEndOf="@+id/posters"
+            android:text="A Quiet Place"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/releaseDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movies"
+            android:layout_alignBottom="@id/movies"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="296dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="-40dp"
+            android:layout_marginBottom="-41dp"
+            android:text="April 2018"></TextView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
